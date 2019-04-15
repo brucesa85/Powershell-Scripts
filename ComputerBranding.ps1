@@ -3,8 +3,8 @@
 	Set Wallpaper and LockScreen in Windows 10 Enterprise downloading file from a site. (In my case Azure Blob).
 
 .DESCRIPTION
-	This script will replace and lockdown the Desktop and Lockscreen images.
-	Follow Per Larsen's guide on how to create Azure Blob & get the shared access signature 
+	This script will replace The Lockdown and Desktop and images.
+	Follow Per Larsen's guide on how to create Azure Blob & get the shared access signature.
 	https://osddeployment.dk/2019/04/14/how-to-set-windows-10-lock-screen-and-background-picture-with-intune/
 	@PerLarsen1975
 
