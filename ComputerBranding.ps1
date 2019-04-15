@@ -4,10 +4,14 @@
 
 .DESCRIPTION
 	This script will replace and lockdown the Desktop and Lockscreen images.
+	Follow Per Larsen's guide on how to create Azure Blob & get the shared access signature 
+	https://osddeployment.dk/2019/04/14/how-to-set-windows-10-lock-screen-and-background-picture-with-intune/
+	@PerLarsen1975
 
 .NOTES
 	Version: 1.0
 	Author: Bruce Sa
+	Twitter: @BruceSaaaa
 	Creation date: 04-15-2019
 	
 
