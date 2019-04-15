@@ -54,7 +54,6 @@ else
     }
     if ($LockScreenSource) {
         Write-Host "Copy Lock Screen image from $($LockScreenSource) to $($LockScreenImageValue)."
-        If (!(Test-Path "C:\Windows\System32\oobe\info\backgrounds")){ New-Item -ItemType Directory -Path "C:\Windows\System32\oobe\info\backgrounds" }
         (New-Object System.Net.WebClient).DownloadFile($LockScreenSource, "$LockScreenImageValue")
         Write-Host "Creating registry entries for Lock Screen"
         New-ItemProperty -Path $RegKeyPath -Name $LockScreenStatus -Value $StatusValue -PropertyType DWORD -Force | Out-Null
